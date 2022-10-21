@@ -1,0 +1,7 @@
+- Iteration speed
+- Readability/Maintainability
+- Focus on value, its so easy to get distracted
+- Side effects, isolate them
+- Frameworks are great
+- Boring tech
+- Do not build distributed systems, built from get go.

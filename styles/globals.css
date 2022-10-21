@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    font-family: "Fira Code", "Roboto", "DejaVu Seri", Helvetica, sans-serif;
+    @apply bg-gray-50;
+    @apply dark:bg-gray-900;
+  }
+  main {
+    @apply min-h-screen;
+  }
+  h1 {
+    @apply text-3xl my-6;
+  }
+  h2 {
+    @apply text-2xl my-4;
+  }
+  h3 {
+    @apply text-xl my-2;
+  }
+  p {
+    @apply text-lg;
+  }
+  nav li {
+    @apply text-2xl;
+  }
+  section {
+    @apply mt-4;
+    @apply min-h-3/4;
+  }
+
+  .prose {
+    /* @apply duration-1000 */
+  }
+  a,
+  button {
+    @apply underline underline-offset-8 decoration-1 hover:decoration-2;
+    /* group */
+
+    /* ::after('<span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-sky-600"></span>') */
+  }
+}
